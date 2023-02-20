@@ -1,12 +1,13 @@
 name: CI workflow
 
+#Events
 on:
   push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
     
-
+#JOBS
 jobs:
   build:
     runs-on: ubuntu-latest

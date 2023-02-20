@@ -1,3 +1,4 @@
+#Name of the ActionWorkFlow
 name: CI workflow
 
 #Events

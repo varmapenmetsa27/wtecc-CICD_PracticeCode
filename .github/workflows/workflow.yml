@@ -1,4 +1,4 @@
-#Name of the Action Work Flow
+#Name of the GitHub Action Work Flow
 name: CI workflow
 
 #Events

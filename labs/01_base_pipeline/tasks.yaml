@@ -4,3 +4,8 @@ metadata:
   name: hello-world
 spec:
   steps:
+    - name: echo
+      image: alpine:3
+      command: [/bin/echo]
+      args: ["Hello World!"]
+  
